@@ -62,7 +62,7 @@ result = win_condition(chosen["player"], chosen["computer"])
 """
 
 def main():
-    print("Welcome ot Rock Paper Scissors!")
+    print("Welcome to Rock Paper Scissors!")
     print(play_game())
     replay = input("\nPlay again?\nEnter y to continue: ")
     while replay == "y":
